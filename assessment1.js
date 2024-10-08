@@ -48,3 +48,4 @@ mintNFT("Andres", "Brown", "Camisa de Chino", "Scarf");
 mintNFT("Emilio", "Brown", "Suit", "Bow tie");
 mintNFT("Juan", "Brown", "Uniform", "Medals");
 listNFTs();
+getTotalSupply();
