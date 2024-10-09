@@ -39,7 +39,7 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
- console.log("\n" + NFTs.length);
+ console.log("\nTotal NFTs Minted: " + NFTs.length);
 }
 
 // call your functions below this line
@@ -48,4 +48,4 @@ mintNFT("Andres", "Brown", "Camisa de Chino", "Scarf");
 mintNFT("Emilio", "Brown", "Suit", "Bow tie");
 mintNFT("Juan", "Brown", "Uniform", "Medals");
 listNFTs();
-console.log("\nTotal NFTs Minted: " + getTotalSupply());
+getTotalSupply();
